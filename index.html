@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="word-container">
+      <p id="word"></p> 
+    </div>
+    <input type="text" id="translation" placeholder="Введіть переклад" />
+    <div id="stats">
+      <p>Крок: <span id="step">1</span>/10</p>
+      <p id = "correct-text">Вірно: <span id="correct"></span></p>
+      <p id = "incorrect-text">Невірно: <span id="incorrect"></span></p>
+    </div>
+    <button id="restart">Рестарт</button> 
+  </div>
+  <div id="result-modal" style="display: none;">
+    <p id="result"></p>
+  </div>     
+</body>
+</html>
