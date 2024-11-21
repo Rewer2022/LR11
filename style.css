@@ -77,8 +77,8 @@ body{
   #word-container{
     text-align: center;
     font-size: 50px;
-    padding: 150px;
-    margin: 20px;
+    padding: 150px 0;
+    margin: 20px 0;
     border: purple ridge 30px;
   }
 
